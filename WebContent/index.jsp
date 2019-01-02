@@ -7,10 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1> 메뉴  </h1>
-	<a href="member/main.jsp">회원관리</a><br />
-	<a href="member/main.jsp">계좌관리</a><br />
-	<a href="member/main.jsp">게시판</a><br />
-	<a href="member/main.jsp">관리자</a><br />
+	<h1> 로그인  </h1>
+	<div>
+		<form action="member.do">
+			ID <input type="text" name = "id" /><br />
+			PASS <input type="text" name = "pass" /><br />
+			<input type="submit" id ="btn" value = "로그인" />
+		</form>
+	</div>
 </body>
 </html>
